@@ -21,7 +21,8 @@ export default new Router({
     {
       path: '/bill/:billId',
       name: 'BillDetails',
-      component: BillDetails
+      component: BillDetails,
+      props: true
     }
   ]
 })

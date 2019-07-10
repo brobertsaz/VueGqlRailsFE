@@ -1,11 +1,7 @@
 <template>
   <div>
     <h2>Welcome to Bills</h2>
-    <bill-item
-      v-for="bill in allBills.nodes"
-      :key="bill.id"
-      :bill="bill">
-    </bill-item>
+    <bill-item v-for="bill in allBills.nodes" :key="bill.id" :bill="bill"></bill-item>
   </div>
 </template>
 

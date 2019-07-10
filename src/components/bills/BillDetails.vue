@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <script>
 import { BILL_QUERY } from '../../constants/graphql'
 
@@ -20,7 +19,7 @@ export default {
     bill: {
       query: BILL_QUERY,
       variables: {
-        id: 30
+        billId: 2201
       }
     }
   }
